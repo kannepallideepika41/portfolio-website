@@ -130,3 +130,36 @@ footer{
     padding:20px;
     margin-top:20px;
 }
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill-card{
+    background:#00c6ff;
+    color:white;
+    padding:15px 25px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:scale(1.1);
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#0072ff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#222;
+    color:white;
+}
