@@ -235,3 +235,22 @@ textarea{
         transform:translateY(0);
     }
 }
+#social{
+    text-align:center;
+}
+
+#social a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background:#00c6ff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+#social a:hover{
+    background:#0072ff;
+    transform:scale(1.05);
+}
