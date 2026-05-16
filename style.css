@@ -190,3 +190,22 @@ footer{
 .dark footer{
     background:black;
 }
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:99;
+    border:none;
+    outline:none;
+    background:#00c6ff;
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:50%;
+    font-size:18px;
+}
+
+#topBtn:hover{
+    background:#0072ff;
+}
